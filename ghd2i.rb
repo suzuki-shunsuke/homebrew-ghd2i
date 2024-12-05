@@ -6,13 +6,13 @@ class Ghd2i < Formula
   desc "Create GitHub Issues from GitHub Discussions
 "
   homepage "https://github.com/suzuki-shunsuke/ghd2i"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.1.2/ghd2i_darwin_amd64.tar.gz"
-      sha256 "32a27e95a5e4007cfd3d5bef6e7ed70b6f25b4e2c8864bf57238cb354cfcc6c2"
+      url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.2.0/ghd2i_darwin_amd64.tar.gz"
+      sha256 "42a335b6a41135cf80ef8b2c5ded3f42e4ade7052965152a96a9205be8ec8544"
 
       def install
         bin.install "ghd2i"
@@ -20,8 +20,8 @@ class Ghd2i < Formula
       end
     end
     on_arm do
-      url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.1.2/ghd2i_darwin_arm64.tar.gz"
-      sha256 "213f599054b05243e67e55dcda5b40e1ecaa7587a91df35f4bb57bf5a3b7a89e"
+      url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.2.0/ghd2i_darwin_arm64.tar.gz"
+      sha256 "44cf0a45867a4ced7607618db505216689a8fed960ae1b15ac6ba566fb23bfb8"
 
       def install
         bin.install "ghd2i"
@@ -33,8 +33,8 @@ class Ghd2i < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.1.2/ghd2i_linux_amd64.tar.gz"
-        sha256 "afbf586e96bfb55ba3cf2fca7384856042759df914ed72573e810b11f31708a1"
+        url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.2.0/ghd2i_linux_amd64.tar.gz"
+        sha256 "a0d2504b71bd218dee41d8bc8ff277b3fdfc57ee0dcc3065fde9192faad5afc8"
 
         def install
           bin.install "ghd2i"
@@ -44,8 +44,8 @@ class Ghd2i < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.1.2/ghd2i_linux_arm64.tar.gz"
-        sha256 "623a7733ec81fbd01170b5779786f884bbfba02cc285c6c117a5d991ca15252e"
+        url "https://github.com/suzuki-shunsuke/ghd2i/releases/download/v0.2.0/ghd2i_linux_arm64.tar.gz"
+        sha256 "b512a0f864c978ea7577efcfe1b0f38b6380c02f75e2e9647272254412a62330"
 
         def install
           bin.install "ghd2i"
